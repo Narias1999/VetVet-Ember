@@ -1,0 +1,17 @@
+{{page-title "Restaurants"}}
+
+<div class="columns is-multiline">
+  {{#each this.model as |restaurant index|}}
+    <div class="column isfull-mobile is-half-tablet is-one-third-desktop">
+      <RestaurantCard
+        @name={{restaurant.name}}
+        @image={{restaurant.image}}
+        @city={{restaurant.city}}
+        @cusine={{restaurant.cusine}}
+        @description={{restaurant.description}}
+      />
+    </div>
+  {{/each}}
+</div>
+
+{{outlet}}

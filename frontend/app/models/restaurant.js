@@ -7,4 +7,5 @@ export default class RestaurantModel extends Model {
   @attr city;
   @attr image;
   @attr createdAt;
+  @attr _id;
 }

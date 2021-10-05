@@ -1,0 +1,9 @@
+.card-content .content {
+  height: 190px;
+  overflow: hidden;
+  white-space: wrap;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

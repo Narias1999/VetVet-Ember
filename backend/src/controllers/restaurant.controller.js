@@ -15,7 +15,7 @@ export const getRestaurants = async (req, res, next) => {
     }
       
     const restaurants = await Restaurant.find(query);
-    return res.json(restaurants);
+    return res.json({ restaurants });
   } catch (error) {
     next(error);
   }
