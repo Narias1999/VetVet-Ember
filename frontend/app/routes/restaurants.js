@@ -4,7 +4,9 @@ import { inject as service } from '@ember/service';
 export default class RestaurantsRoute extends Route {
   @service store;
 
-  model() {
-    return this.store.findAll('restaurant');
+  model(params) {
+    const { keyword } = params;
+
+    return this.store.query('restaurant', { keyword });
   }
 }

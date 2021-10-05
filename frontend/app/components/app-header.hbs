@@ -19,10 +19,13 @@
       </p>
       <div class="field">
         <p class="control is-expanded has-icons-right">
-          <input class="input" type="search" placeholder="Cuisine or city..."/>
+          <input type="search" onkeypress={{action "handleSearch"}} class="input" placeholder="New York, Chinese, mexican..." />
           <span class="icon is-small is-right"><i class="fas fa-search"></i></span>
         </p>
      </div>
     </div>
   </div>
 </section>
+<div class="container px-4 pt-2">
+  Showing {{this.currentFilter}}
+</div>
