@@ -1,0 +1,19 @@
+{
+  "name": "vetvet",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\"> Restaurants filter with ember.js <br> </h1> <p align=\"center\"> Get information about restaurants! <p>",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd backend/ && npm install && npm run build && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Narias1999/VetVet-Ember.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Narias1999/VetVet-Ember/issues"
+  },
+  "homepage": "https://github.com/Narias1999/VetVet-Ember#readme"
+}
